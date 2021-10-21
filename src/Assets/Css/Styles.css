@@ -53,7 +53,7 @@ header nav .nav-bar li:not(.header-logo){
 
 /*Banner*/
 header .banner {
-    background-image: url(/src/Assets/Img/INTERCONTINENTAL-Software-Hero.jpg);
+    background-image: url(/src/Assets/Img/INTERCONTINENTAL-Software-Hero-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -81,7 +81,7 @@ header .banner .brand-design .text1,
 header .banner .brand-design .text2 {
     padding: 16px 32px;
     font-size: 110%;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 header .banner .brand-design .text1 {
@@ -105,18 +105,19 @@ header .banner .descriptions {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 header .banner .descriptions .left-paragraph, 
 header .banner .descriptions .right-paragraph {
     width: 15%;
-    font-size: 90%;
+    font-size: 80%;
 }
 
 header .banner .descriptions .successful-projects,
 header .banner .descriptions .managed-projects {
     text-align: center;
+    width: 10%;
 }
 
 header .banner .descriptions h3{
@@ -126,9 +127,24 @@ header .banner .descriptions h3{
 header .banner .descriptions .successful-projects p,
 header .banner .descriptions .managed-projects p {
     font-size: 130%;
+    font-weight: 600;
 }
 
+header .banner .qualities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-bottom: 20px;
+    font-size: 80%;
+}
 
+header .banner .qualities {
+    
+}
 
 /*PROJECTS*/
 
