@@ -43,13 +43,26 @@ header nav .nav-bar li a {
 }
 
 header nav .nav-bar li a:hover {
-    /*background-color: white;*/
     color: rgb(0, 150, 191);
 }
 
 header nav .nav-bar li:not(.header-logo){
     float: right;
 }
+
+/*The following codes are the ones which will be 
+executed for everyime we school.*/
+
+header nav .sticky .nav-bar {
+    background: white; 
+    
+}
+
+header nav .sticky .nav-bar li a {
+    background: white; 
+
+}
+
 
 /*Banner*/
 header .banner {
